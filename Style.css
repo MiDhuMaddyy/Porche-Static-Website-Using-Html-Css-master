@@ -1,0 +1,552 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Porsche Next","Arial Narrow",sans-serif;;
+}
+
+.Header{
+    background-color: white;
+    width: 100%;
+    height: 125px;
+}
+.logo{
+    margin-left: 148px;
+    margin-top: 6px;
+    width: 127px;
+    height: 111px;
+    border: none;
+}
+.logobtn{
+    border: none;
+    border-radius: 40px;
+    background: none;
+}
+.cat1{
+
+    margin-left: 331px;
+    margin-top: -109px;
+    height: 100px;
+    width: 90px;
+}
+
+.cat2{
+    
+    margin-left: 421px;
+    margin-top: -100px;
+    height: 100px;
+    width: 90px;
+}
+.cat3{
+    
+    margin-left: 511px;
+    margin-top: -100px;
+    height: 100px;
+    width: 90px;
+}
+
+.cat4{
+    
+    margin-left: 610px;
+    margin-top: -100px;
+    height: 100px;
+    width: 90px;
+}
+.cat5{
+   
+    margin-left: 710px;
+    margin-top: -100px;
+    height: 100px;
+    width: 90px;
+}
+.cat6{
+   
+    margin-left: 809px;
+    margin-top: -100px;
+    height: 100px;
+    width: 90px;
+}
+.cat1:hover{
+    border-bottom: 2px solid red;
+}
+.cat2:hover{
+    border-bottom: 2px solid red;
+}
+.cat3:hover{
+    border-bottom: 2px solid red;
+}
+.cat4:hover{
+    border-bottom: 2px solid red;
+}
+.cat5:hover{
+    border-bottom: 2px solid red;
+}
+.cat6:hover{
+    border-bottom: 2px solid red;
+}
+.logTxt:hover{
+    color: red;
+    cursor: pointer;
+}
+.sidebar{
+    /* background-color: aqua; */
+    float: right;
+    margin-right: 72px;
+    margin-top: -103px;
+    width: 373px;
+    height: 91px;
+}
+.Shop{
+    margin-top: 35px;
+    margin-left: 96px;
+    width: 118px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Porsche Next", "Arial Narrow", Arial, "Heiti SC", sans-serif;
+}
+.Shop:hover{
+    color: red;
+    cursor: pointer;
+}
+.Dealers{
+    margin-left: 174px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Porsche Next", "Arial Narrow", Arial, "Heiti SC", sans-serif;
+    cursor: pointer;
+    width: 65px;
+}
+.Dealers:hover{
+    color: red;
+}
+.vline{
+    height: 50px;
+    margin-left: 262px;
+    margin-top: -50px;
+}
+.dotdiv{
+    width: 50px;
+    margin-left: 306px;
+    margin-top: -40px;
+}
+.dots{
+    font-size: 27px;
+    color: black;
+}
+.dots:hover{
+    color: red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.DisplayTextH{
+    position: absolute;
+    margin-top: -157px;
+    padding-left: 127px;
+    /* color: white; */
+    font-size: 71px;
+    font-family: "Porsche Next", "Arial Narrow", Arial, "Heiti SC", sans-serif;
+}
+
+.DisplayTextP{
+    position: absolute;
+    position: absolute;
+    margin-top: -87px;
+    padding-left: 162px;
+    /* color: white; */
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Model{
+    height: 77px;
+}
+.board2{
+    color: white;
+}
+.board2:hover{
+    transition: 0.5s;
+    color: red;
+    cursor: pointer;
+}
+
+.Model h1{
+    margin-left: 147px;
+    margin-top: 31px;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.cards{
+    width: 100%;
+    height: 859px;
+    /* background-color: black ; */
+}
+.card1{
+    width: 32%;
+    height: 427px;
+    background-color: aqua;
+}
+.card2{
+    width: 32%;
+    height: 427px;
+    margin-left: 510px;
+    margin-top: -427px;
+    background-color: aqua;
+}
+.card3{
+    margin-left: 1021px;
+    margin-top: -427px;
+    width: 33%;
+    height: 427px;
+    background-color: aqua;
+}
+.card4{
+    width: 32%;
+    height: 427px;
+    background-color: aqua;
+}
+.card5{
+    width: 32%;
+    height: 427px;
+    margin-left: 510px;
+    margin-top: -427px;
+    background-color: aqua;
+}
+.card5 img{
+    width: 576px;
+}
+.card6{
+    margin-left: 1021px;
+    margin-top: -427px;
+    width: 33%;
+    height: 427px;
+    background-color: aqua;
+}
+.cardTxt1{
+    position: absolute;
+    margin-left: 54px;
+    margin-top: -419px;
+    font-size: 41px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardpara1{
+    position: absolute;
+    margin-left: 58px;
+    margin-top: -376px;
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardbtn1{
+    margin-top: -102px;
+    position: absolute;
+    height: 57px;
+    width: 171px;
+    margin-left: 51px;
+    font-family: Porsche Next","Arial Narrow",sans-serif;}";
+    background-color: white;
+    border: none;
+}
+.cardbtn1:hover{
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+}
+.cardbtn2{
+    margin-top: -102px;
+    position: absolute;
+    height: 57px;
+    width: 171px;
+    font-family: Porsche Next","Arial Narrow",sans-serif;}";
+    background-color: transparent;
+    margin-left: 272px;
+    color: white;
+    border-color: white;
+    border-style: groove;
+}
+.cardbtn2:hover{
+    transition: 0.5s;
+    border-color: red;
+    color: red;
+}
+.MiddleContent{
+    width: 100%;
+    height: 130px;
+}
+.MiddleContent p{
+    margin-left: 136px;
+    margin-top: 36px;
+
+}
+.CardCollection{
+    width: 103%;
+    height: 500px;
+    /* background-color: rgb(0, 0, 0)  ; */
+}
+.CardCollection h1{
+    margin-left: 120px;
+    padding-top: 21px;
+    font-family: sans-serif;
+}
+.cards{
+    width: 100%;
+    height: 859px;
+    /* background-color: black ; */
+}
+.collection{
+    padding-top: 42px;
+    margin-left: 82px;
+}
+
+.CardCollection1{
+    width: 32%;
+    height: 427px;
+}
+.CardCollection2{
+    width: 32%;
+    height: 427px;
+    margin-left: 474px;
+    margin-top: -427px;
+}
+.CardCollection3{
+    margin-left: 961px;
+    margin-top: -427px;
+    width: 33%;
+    height: 427px;
+}
+
+.Collectionbtn{
+    margin-top: 6px;
+    position: absolute;
+    height: 57px;
+    width: 171px;
+    margin-left: 125px;
+    font-family: Porsche Next","Arial Narrow",sans-serif;}";
+    border: none;
+    background-color: #313639;
+    color: white;
+}
+.Collectionbtn:hover{
+    background-color: red;
+    color: white;
+}
+.shoppingTool{
+    height: 400px;
+    width: 100%;
+    /* background-color: #313639; */
+}
+.Shpheading{    
+    font-family: "Porsche Next","Arial Narrow",sans-serif;
+    margin-left: 87px;
+    padding-top: 61px;
+    font-size: 19px;
+}
+.ShoppingBox{
+    width: 90%;
+    height: 272px;
+    /* background-color: aquamarine; */
+    margin-left: 87px;
+    margin-top: 23px;
+}
+.ShoppingBox1{
+    width: 500px;
+    height: 272px;
+    /* background-color: blue; */
+}
+.ShoppingBox1 img{
+    height: 273px;
+    width: 501px;
+}
+.ShpBoxPara{
+    position: absolute;
+    margin-top: -37px;
+    color: white;
+    margin-left: 19px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ShpBoxPara:hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ShoppingBox2{
+    width: 339px;
+    height: 272px;
+    /* background-color: blue; */
+    margin-left: 500px;
+    margin-top: -272px;
+}
+.ShoppingBox2 img{
+    height: 272px;
+    width: 100%;
+}
+.ShoppingBox3{
+    margin-left: 839px;
+    margin-top: -271px;
+}
+.ShoppingBox3 img{
+    height: 272px;
+    width: 50%;
+}
+.ShoppingBox4{
+    margin-left: 1103px;
+    margin-top: -276px;
+    
+}
+.ShoppingBox4 img{
+    width: 242px;
+}
+.ShoppingBox4sub{
+    margin-left: 1103px;
+    margin-top: -297px;
+}
+.DiscoverTxt{
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 16px;
+}
+.DiscoverTxt:hover{
+    color: red;
+    cursor: pointer;
+}
+.Footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    /* background-color: black; */
+}
+.Footerhr{
+    padding-top: 53px;
+    width: 91%;
+    margin-left: 83px;
+}
+.subFooter{
+    margin-top: 30px;
+    width: 91%;
+    margin-left: 82px;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    width: 24%;
+    height: 500px;
+    /* background-color: bisque; */
+}
+.col h2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.col ul{
+    margin-left: 30px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.col li:hover{
+    color: red;
+}
+.colBtn{
+    width: 299px;
+    margin-top: 52px;
+    height: 62px;
+    margin-left: 22px;
+    background-color: #313639;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+.colBtn:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+.socialMedia{
+    margin-top: 31px;
+    margin-left: 15px;
+}
+.MediaTags{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.socialBox{
+    width: 18%;
+    height: 63px;
+    background-color: #313639;
+}
+.socialBox i{
+    justify-content: center;
+    /* align-items: center; */
+    
+    font-size: 34px;
+    margin: 12px;
+    color: white;
+}
+.socialMedia h4{
+    color: #959899;
+    font-size: 25px;
+}
+.facebook:hover{
+    background-color: blue;
+}
+.youtube:hover{
+    background-color: red;
+}
+.pinterest:hover{
+    background-color: red;
+}
+.instagram:hover{
+    background-color: lightskyblue;
+}
+.linkedin:hover{
+    background-color: lightskyblue;
+}
+.LastFooter{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #191f22;;
+}
+.LastHeader{
+    margin-left: 106px;
+    padding-top: 32px;
+    font-size: 32px;
+    color: white;
+}
+.LastDropBox{
+    margin-left: 107px;
+    display: flex;
+    margin-top: 29px;
+}
+.LastDropBox select{
+    height: 51px;
+    background-color: #313639;
+    width: 372px;
+    border: none;
+    color: white;
+    outline: none;
+}
+.dropbox2{
+    margin-left: 8px;
+}
+.line{
+    margin-top: 36px;
+}
+.line hr{
+    width: 1350px;
+    margin-left: 105px;
+}
+.FooterTxt{
+    margin-top: 15px;
+    margin-left: 104px;
+    color: white;
+    font-size: 17px;
+}
